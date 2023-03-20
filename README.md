@@ -22,4 +22,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Você pode testar o funcionamento deste template clicando [AQUI](https://vertigo-login.vercel.app).
+Você pode testar o funcionamento deste template clicando [AQUI](https://vertigo-login.vercel.app)<a href="https://vertigo-login.vercel.app" target="_blank">AQUI</a>.
