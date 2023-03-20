@@ -153,7 +153,7 @@ p:last-child a{
     padding: 2.5rem 10rem 13rem 8rem;
   }
   
-  aside{
+  #right-img{
     display: none;
   }
 }
@@ -172,7 +172,7 @@ p:last-child a{
     font-size: 1.8rem;
   }
 
-  aside{
+  #right-img{
     display: none;
   }
 }
