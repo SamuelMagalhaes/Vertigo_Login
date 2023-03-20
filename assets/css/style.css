@@ -1,3 +1,5 @@
+/* REGRAS GERAIS */
+
 *{
   margin: 0;
   padding: 0;
@@ -37,7 +39,9 @@ input::placeholder{
   color: #94A3B8;
 }
 
-#email{
+/* REGRAS DO INPUT E-MAIL */
+
+.email{
   outline: none;
   height: 53px;
   width: 100%;
@@ -47,8 +51,16 @@ input::placeholder{
   margin: 0.5rem 0 0.3rem 0;
 }
 
-#email:hover,
-#email:focus{
+.input-email-error{
+  outline:1px solid #ED3A5A;
+}
+
+input.input-email-error:hover{
+  outline:1px solid #ED3A5A;
+}
+
+.email:hover,
+.email:focus{
   outline:1px solid #7C3AED;
 }
 
@@ -63,10 +75,7 @@ input::placeholder{
   display: block;
 }
 
-.input-email-error{
-  outline:1px solid #ED3A5A;
-
-}
+/* REGRAS DO INPUT PASSWORD */
 
 .lb-password{
   display: flex;
@@ -111,6 +120,8 @@ input::placeholder{
   outline:1px solid #7C3AED;
 }
 
+/* REGRAS DOS BOTOES E LINKS DO RODAPÉ DO FORMULÁRIO */
+
 button{
   margin: 2rem 0 2rem 0;
   padding: 1rem 0 1rem 0;
@@ -125,6 +136,10 @@ button{
   font-size: 1rem;
   color: #fff;
   cursor: pointer;
+}
+
+button:hover{
+  background-color: #9F67FF;
 }
 
 p:last-child a{
@@ -143,6 +158,8 @@ p:last-child a:hover{
   background-repeat: no-repeat;
   width: 50vw;
 }
+
+/* RESPONSIVIDADE */
 
 @media(min-width: 769px) and (max-width: 1024px){
 

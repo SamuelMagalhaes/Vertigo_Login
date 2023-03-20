@@ -1,5 +1,5 @@
 /* VARIABLES */
-let email = document.querySelector('#email')
+let email = document.querySelector('.email')
 
 let eye = document.querySelector('.eye-button')
 let input = document.querySelector('#password')
@@ -31,12 +31,13 @@ btn_signin.addEventListener('click', (e)=>{
     (domain.length < 3) ||
     (domain.indexOf(".") < 0)
   ){
+    email.classList.add('input-email-error')
     email_error.classList.add('visible')
   } else {
     console.log(user)
     console.log(domain)
     email_error.classList.remove('visible')
+    email.classList.remove('input-email-error')
   }
 })
 
-/* FUNCTIONS */
