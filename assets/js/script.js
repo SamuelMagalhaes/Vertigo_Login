@@ -29,7 +29,7 @@ btn_signin.addEventListener('click', (e)=>{
     (user.length < 3) ||
     (user.search(" ") > -1) ||
     (domain.length < 3) ||
-    (domain.search(".") < 0)
+    (domain.indexOf(".") < 0)
   ){
     email_error.classList.add('visible')
   } else {
